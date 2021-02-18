@@ -5,8 +5,8 @@
  */
 package capaNegocio;
 
-import Modelo.Persona;
-import Modelo.PersonaSQL;
+import capaDatos.Persona;
+import capaDatos.PersonaSQL;
 import capaPresentacion.Vista;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

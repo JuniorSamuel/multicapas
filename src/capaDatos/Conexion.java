@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Modelo;
+package capaDatos;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -31,7 +31,7 @@ public class Conexion {
         //El motor de base de dato debe ser 'mysql' o 'sqlite'
         String motor = "sqlite";
         //La direccion, es la ubicacion de la base de datos
-        String direccion = "src//Modelo";
+        String direccion = "src//capaDatos";
         //baseDatos en el nombre de la base de datos
         String baseDatos = "databadse.db";
         
